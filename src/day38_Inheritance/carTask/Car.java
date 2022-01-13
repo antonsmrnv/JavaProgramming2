@@ -9,14 +9,13 @@ public class Car {
     public int miles;
 
 
-
-    public Car(String brand, int year, double price, String color, int miles) {
+    public Car(String brand, String model, int year, double price, String color, int miles) {
         this.brand = brand;
+        this.model = model;
         this.year = year;
         this.price = price;
         this.color = color;
         this.miles = miles;
-
     }
 
     public void start(){
