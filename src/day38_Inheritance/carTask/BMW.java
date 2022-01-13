@@ -1,5 +1,17 @@
 package day38_Inheritance.carTask;
 
-public class BMW {
+public class BMW extends Car {
+
+    public BMW(int year, double price, String color, int miles) {
+        super("BMW", year, price, color, miles);
+    }
+
+    public void breaksDown(){
+        System.out.println(brand + " "+ model + " is breaking down");
+    }
+
+    public void racing(){
+        System.out.println(brand + " " + model + " is racing");
+    }
 
 }
