@@ -9,6 +9,7 @@ public class Car {
     public int miles;
 
 
+
     public Car(String brand, int year, double price, String color, int miles) {
         this.brand = brand;
         this.year = year;
