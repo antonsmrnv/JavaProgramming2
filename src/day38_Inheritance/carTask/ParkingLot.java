@@ -2,9 +2,20 @@ package day38_Inheritance.carTask;
 
 public class ParkingLot {
 
-    Toyota toyota = new Toyota("Camry", 2019, 20000, "Red", 120000);
+    public static void main(String[] args) {
 
-    BMW bmw = new BMW("330i", 2020, 40000, "White", 60000);
+        Toyota toyota = new Toyota("Camry", 2020, 20000, "Gray", 123456);
 
-    Tesla tesla = new Tesla("Model3", 2020, 30000, "Black", 50000)
+        Tesla tesla = new Tesla("Model S", 2022, 94990, "Red", 0);
+
+        BMW bmw = new BMW("X5", 2020, 67350, "black", 12000);
+
+        toyota.start();
+        bmw.start();
+        tesla.start();
+    }
+
+
+
+
 }
