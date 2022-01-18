@@ -17,5 +17,51 @@ public class Cydeo {
         System.out.println(tester);
         System.out.println(teacher);
         System.out.println(student);
+
+        System.out.println("-----------------------------------");
+
+        System.out.println(developer.getAge());
+
+        developer.work();
+        tester.work();
+        teacher.work();
+
+        System.out.println("-------------------------------------");
+
+        developer.eat();
+        developer.drink();
+        developer.sleep();
+        developer.fixingBugs();
+
+        System.out.println("-------------------------------------");
+
+        tester.eat();
+        tester.drink();
+        tester.sleep();
+        // tester.fixingBugs();
+        tester.createTicket();
+
+        System.out.println("-------------------------------------");
+
+        teacher.eat();
+        teacher.drink();
+        teacher.sleep();
+        // teacher.fixingBugs();
+        // teacher.createTicket();
+
+        System.out.println("-------------------------------------");
+
+        student.eat();
+        student.drink();
+        student.sleep();
+        //student.fixingBugs();
+        // student.createTicket();
+        student.study();
+
+
+
+
+
+
     }
 }
