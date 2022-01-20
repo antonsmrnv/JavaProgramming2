@@ -1,4 +1,4 @@
-package PracticeHours;
+package WednesdayPracticeHours;
 
 public class CompareLoops {
 

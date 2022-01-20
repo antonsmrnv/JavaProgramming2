@@ -1,8 +1,7 @@
-package PracticeHours;
+package WednesdayPracticeHours;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
@@ -22,4 +21,6 @@ public class Test {
         System.out.println(list
         );
     }
+
+
 }
